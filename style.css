@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body,html{
+    background-color: hsl(0, 0%, 8%);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 330px;
+    height: 485px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 5px;
+}
+img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+.content{
+   align-items: center;
+   text-align: center;
+   /* border: 2px solid ; */
+   margin: 28px;
+}
+/* .title{
+
+} */
+.subtitle{
+    color: hsl(75, 94%, 57%);
+    margin-top: 4px;
+    font-size: 15px;
+}
+.para{
+    margin-top: 12px;
+    font-size: 16px;
+}
+.buttons{
+    margin-top: 5px;
+}
+.buttons .button{
+    color: white;
+    font-weight: bold;
+    background-color: hsl(0, 0%, 20%);
+    width: 100%;
+    margin-top: 12px;
+    height: 38px;
+    border: 2px solid hsl(0, 0%, 20%);
+    border-radius: 3px;
+    transition: all 0.2s;
+}
+.buttons .button:hover{
+    background-color: hsl(75, 94%, 57%);
+    border: 2px solid hsl(75, 94%, 57%);
+    color: black;
+}
+
+
+@media only screen and (max-width: 375px){
+    .container{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        width: 85%;
+        height: 485px;
+        background-color: hsl(0, 0%, 12%);
+        border-radius: 5px;
+    }
+}
